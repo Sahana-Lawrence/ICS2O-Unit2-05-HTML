@@ -6,27 +6,24 @@
     <meta name="keywords" content="JavaScript">
     <meta name="author" content="Sahana Lawrence">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage, With JavaScript</title>
+    <title>Area of a Square</title>
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <div>
-      <button id="body" onclick="changeBodyBg()">Change Background Color to lightblue!</button>
-    </div>
-    <br>
-    <div>
-      <input id="text" value="Skye">
-      <button onclick="myFunction(text)">Next</button>
-      <br><br>
-      <button id="button">eventListener</button>
-      <br>
-    </div>
-    <br>
-    <div id="hideaway">You found it!</div>
-    <br>
-    <button onclick="document.getElementById('hideaway').style.display='block';">Hidden Content</button>
-    <button onclick="document.getElementById('hideaway').style.display='none';">Hide content again</button>
+    <h1>Area of a Square</h1>
+    Base:
+    <input id="base"/>
+    <br><br>
+    Height:
+    <input id="height"/>
+    <br><br>
+    <input 
+    type="button" 
+    id="btnarea" 
+    onclick="Area();" 
+    value = "Compute"/>
+    <br><br>
+    <div id = "divresult"></div>
     <script src="index.js"></script>
   </body>
 </html>

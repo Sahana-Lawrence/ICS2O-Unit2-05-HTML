@@ -2,16 +2,8 @@
   background-color: white;
 }
 
-#hideaway {
-  display: none;
-}
-
-#text {
+#base #btnarea #height #divresult {
   font-family: courier;
-}
-
-#button {
-  font-family: comic;
 }
 
 h1 {
